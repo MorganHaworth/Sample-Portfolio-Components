@@ -51,7 +51,7 @@ Goes inside the `<div class="outer-container">` element.
   <img height="175px" src="https://user-images.githubusercontent.com/43857043/144568357-1e067648-7b77-43e3-af7d-f3580891e2bc.png">
 </p>
 
-Be mindful of how much text you include in this component. If you want to swap side, swap the left and right values for the float property per media query. You will need to place an image `landscape.jpg` in the `assets/` folder at root.
+Be mindful of how much text you include in this component. If you want to swap side, swap the left and right values for the float property per media query. You will need to place an image `sample.jpg` in the `assets/` folder at root.
 
 Goes inside the `<div class="outer-container">` element.
 #### HTML
