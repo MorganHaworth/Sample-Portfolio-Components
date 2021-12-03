@@ -1,2 +1,2 @@
-# Sample-Portfolio-Elements
-A collection of web elements for a portfolio page
+# Sample-Portfolio-Components
+A collection of web components for a portfolio page
