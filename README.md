@@ -20,21 +20,21 @@ Copy & paste this code into a file called `index.html`.
               align-items: center;
           } 
 
-          @media only screen and (max-width: 600px) {
+          @media only screen and (max-width: 600px) {   /* For viewports smaller than 600px */
             .outer-container {
                 width: 95%;
                 justify-content: center;
             }
           }
 
-          @media only screen and (min-width: 600px) {
+          @media only screen and (min-width: 600px) {   /* For viewports 600px wide or larger */
             .outer-container {
                 width: 80%;
                 justify-content: center;
             }
           }
 
-          @media only screen and (min-width: 1000px) {
+          @media only screen and (min-width: 1000px) {   /* For viewports 1000px wide or larger */
             .outer-container {
                 width: 60%;
                 justify-content: center;
