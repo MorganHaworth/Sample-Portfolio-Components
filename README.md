@@ -8,12 +8,14 @@ Copy & paste this code into a file called `index.html`.
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- The head contains info about the webpage like title and styling -->
         <meta content="width=device-width, initial-scale=1" name="viewport" />
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css">
         <title>PLACE YOUR TITLE HERE</title>
     </head>
     <body>
+        <!-- The body contains elements that will display on your webpage -->
         <div class="outer-container">
             ## All your webpage elements go between the body tags. For styling, most elements will go in this #outer-container div
         </div>
@@ -24,6 +26,7 @@ Copy & paste this code into a file called `index.html`.
 Copy & paste this code into a file called `style.css`
 ```
 body {margin: 0px;}
+
 .outer-container {
   margin: auto;
   display: flex;
