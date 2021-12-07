@@ -25,7 +25,12 @@ Copy & paste this code into a file called `index.html`.
 ### style.css
 Copy & paste this code into a file called `style.css`
 ```
-body {margin: 0px;}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  /* I recommend adding font-family: sans-serif; to the body{} style rule for a sleeker font*/
+}
 
 .outer-container {
   margin: auto;
@@ -33,6 +38,8 @@ body {margin: 0px;}
   flex-direction: column;
   align-items: center;
 } 
+
+/*Style rules not in a media query can go here, above the media queries*/
 
 @media only screen and (max-width: 600px) {   /* For viewports smaller than 600px */
     .outer-container {
@@ -54,6 +61,4 @@ body {margin: 0px;}
         justify-content: center;
     }
 }
-
-/*Style rules not in a media query can go here, after the last media query*/
 ```
