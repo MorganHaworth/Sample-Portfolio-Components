@@ -37,3 +37,52 @@ This can be your name, title, short description, etc.
     color: olivedrab; /* Change color to what you want. Remove this for black font. */
 }
 ```
+## Small Blurb
+<p align="center">
+  <img height="175px" src="https://user-images.githubusercontent.com/43857043/145343054-34060fea-d877-4989-a4cd-30ee42b20b35.png">
+</p>
+
+#### HTML
+```
+<p class="small-blurb">I am an innovator.</p>
+```
+
+#### CSS
+```
+.small-blurb {
+    font-variant: small-caps;
+}
+```
+
+##### @media only screen and (max-width: 600px)
+```
+.small-blurb {
+    font-size: 1.5em;
+}
+```
+##### @media only screen and (min-width: 600px)
+```
+.small-blurb {
+    font-size: 2.3em;
+}
+```
+##### @media only screen and (min-width: 1000px)
+```
+.small-blurb {
+    font-size: 3em;
+}
+ ```
+## Long Blurb
+<p align="center">
+  <img height="175px" src="https://user-images.githubusercontent.com/43857043/145344111-b57c9b52-59bd-4aed-b331-d2508e187d74.png">
+</p>
+
+#### HTML
+```
+<p class="long-blurb">
+    Hey, here is where you can add a longer blurb about yourself.
+    Add as much information as you like. Ideas: how you got to where you are now, 
+    what you do now, what you'd like to do.<br><br>Add a line break with the &lt;br&gt; 
+    element to make another paragraph in the longer blurb.
+</p>
+```
