@@ -33,6 +33,7 @@ body {
 }
 
 .outer-container {
+  box-sizing: border-box ;
   margin: auto;
   display: flex;
   flex-direction: column;
