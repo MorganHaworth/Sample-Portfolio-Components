@@ -97,10 +97,10 @@ Be mindful of how much text you include in this component. If you want to swap s
 }
 ```
 ## Image Gallery
-White space between images optional (how-to in CSS section) - Please ask questions if you need help!
 <p align="center">
   <img height="250px" src="https://user-images.githubusercontent.com/43857043/144959255-4033410d-09c7-4843-ac6d-860010ce08eb.png">
 </p>
+White space between images optional (how-to in CSS section) - Please ask questions if you need help!
 
 #### HTML
 ```
@@ -149,3 +149,23 @@ White space between images optional (how-to in CSS section) - Please ask questio
     column-count: 3;
 }
  ```
+ ## Background Static Image
+<p align="center">
+  <img height="250px" src="https://user-images.githubusercontent.com/43857043/145321725-6fc37817-f7d2-4dc7-97a1-a236d4b95eab.png">
+</p>
+This gives provides a background image that stays stationary in the background as you scroll. The main content is given a solid or slightly transparent background to contrast it against the background image.
+
+#### CSS
+Modify existing `body` and `.outer-container` style rules to have the additional declarations. Replace `assets/swirl-art2.jpg` with an image of your choice. The larger the image the better because otherwise it may be blurry.
+```
+body {
+    background-image: url('assets/swirl-art2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.outer-container {
+  background-color: rgba(255,255,255,.9); /*This 4th value is 90% opacity. Remove the 4th value entirely for a solid color.*/
+  padding: 0px 50px;
+}
+```
