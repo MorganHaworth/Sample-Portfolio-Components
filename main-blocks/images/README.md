@@ -84,12 +84,6 @@ Be mindful of how much text you include in this component. If you want to swap s
 ```
 ##### @media only screen and (min-width: 1000px)
 ```
-.image-by-text {
-    width: 50%;
-    float: right;
-    margin: 10px;
-}
-
 .text-by-image {
     margin: 0px 5%;
     float: left;
