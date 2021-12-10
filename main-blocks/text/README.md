@@ -86,3 +86,127 @@ This can be your name, title, short description, etc.
     element to make another paragraph in the longer blurb.
 </p>
 ```
+## Section Title
+<p align="center">
+  <img height="175px" src="https://user-images.githubusercontent.com/43857043/145599973-97fe015c-ade5-4188-81a6-3ea1a32039d2.png">
+</p>
+
+#### HTML
+```
+<h2 class="section-title">
+    Biography
+</h2>
+```
+#### CSS
+```
+.section-title {   
+    color: darkcyan;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: darkcyan 2px solid;
+}
+```
+## Section Content 1
+<p align="center">
+  <img height="175px" src="https://user-images.githubusercontent.com/43857043/145626762-c1c89960-8971-492b-ba9a-6ac04463ae4f.png">
+</p>
+
+#### HTML
+```
+<div class="section-content-1">
+    <div class="sc1-heading">
+        <span class="position-1">Innovator</span>
+        <span class="time-1">May 2009 - June 2012</span>
+    </div>
+    <p class="sc1-location">Solutions Co.</p>
+    <p class="sc1-description">
+        As an innovator, I completed X, Y, and Z.
+        <a class="sc1-link" href="#">Check out the changes here!</a>
+    </p>
+    <div class="sc1-skills-container">
+        <span class="sc1-skill">MS Word</span>
+        <span class="sc1-skill">Python</span>
+        <span class="sc1-skill">Excel</span>
+        <span class="sc1-skill">Rest APIs</span>
+        <span class="sc1-skill">AWS</span>
+    </div>
+    <ul class="sc1-list">
+        <li class="sc1-item">Created a solution for X which lowered processing time from Yms to Zms</li>
+        <li class="sc1-item">Responsibility 2</li>
+    </ul>
+</div>
+```
+#### CSS 
+```
+.section-title {   
+    color: darkcyan;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: darkcyan 2px solid;
+}
+.sc1-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section-content-1 {
+    width: 100%;
+    margin-top: 10px;
+}
+.sc1-heading {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.position-1 {
+    max-width: 300px;
+    word-wrap: break-word;
+    font-size: 1.4em;
+}
+.time-1 {
+    padding-left: 10px;
+    margin-left: auto;
+    font-style: italic;
+}
+.sc1-link {
+    text-decoration: none;
+    color: slateblue;
+}
+.sc1-link:hover {
+    text-decoration: none;
+    color: darkslateblue;
+}
+.sc1-description {
+    margin-bottom: 5px;
+}
+.sc1-skill {
+    border: 1px solid darkcyan;
+    color: darkcyan;
+    margin: 5px 10px;
+    border-radius: 5px;
+    padding: 2px 4px; 
+    font-size: .9em;
+}
+.sc1-location {
+    margin: 0px;
+}
+```
+##### @media only screen and (max-width: 600px)
+```
+.sc1-heading {
+    width: 100%;
+    display: block;
+    align-items: center;
+}
+.position-1 {
+    width: 100%;
+    word-wrap: break-word;
+    font-size: 1.4em;
+    display: block;
+}
+.time-1 {
+    padding: 0px;
+    width: 100%;
+    font-style: italic;
+}
+```
