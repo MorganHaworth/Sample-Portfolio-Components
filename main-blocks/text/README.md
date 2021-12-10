@@ -122,6 +122,7 @@ This can be your name, title, short description, etc.
     <p class="sc1-description">
         As an innovator, I completed X, Y, and Z.
         <a class="sc1-link" href="#">Check out the changes here!</a>
+        <!-- Replace the '#' in href to a URL link -->
     </p>
     <div class="sc1-skills-container">
         <span class="sc1-skill">MS Word</span>
