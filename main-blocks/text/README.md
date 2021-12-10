@@ -91,9 +91,15 @@ This can be your name, title, short description, etc.
   <img height="175px" src="https://user-images.githubusercontent.com/43857043/145599973-97fe015c-ade5-4188-81a6-3ea1a32039d2.png">
 </p>
 
+Each section title element should have an `id` attribute whose value is the section name (with no spaces - instead dashes or capitalization)
+
+Ex) \[Skills Summary] -> `skills-summary` or `skillsSummary`]
+
+This is used for navigation in the nav bar.
+
 #### HTML
 ```
-<h2 class="section-title">
+<h2 class="section-title" id="biography">
     Biography
 </h2>
 ```
@@ -209,5 +215,68 @@ This can be your name, title, short description, etc.
     padding: 0px;
     width: 100%;
     font-style: italic;
+}
+```
+## Item Grid List
+<p align="center">
+  <img height="300px" src="https://user-images.githubusercontent.com/43857043/145654571-99b66226-e25e-4e60-8c44-496810b0ff0f.png">
+</p>
+
+Can display skills, achievements, awards, etc. The `item-level` and `item-desc` elements can be considered optional.
+
+#### HTML
+I removed a couple of the `li` elements in this HTML so not all items in the image are listed below.
+```
+<ul class="items-grid">
+    <li class="item">
+        <p class="item-name">HTML & CSS</p>
+        <p class="item-level">Knowledgable</p>
+        <p class="item-desc">Created several sample websites using HTML & CSS</p>
+    </li>
+    <li class="item">
+        <p class="item-name">TOPS Award</p>
+        <p class="item-desc">Awarded greatest contributer to development of Pre-K learning program</p>
+    </li>
+</ul>
+```
+
+#### CSS
+```
+.items-grid {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px;
+    justify-content: space-between;
+}
+.item {
+    list-style-type: none;
+    padding: 10px 0px;
+    display: list-item;
+    box-sizing: border-box;
+}
+.item-name {
+    font-size: 1.4em;
+    margin: 0px;
+    font-weight: bold;
+    color: teal;
+    text-shadow: -1px 1px #c2c2c2;
+}
+.item-level {
+    margin: 0px;
+    font-variant: small-caps;
+}
+```
+
+##### @media only screen and (max-width: 600px)
+```
+.item {
+    width: 100%;
+}
+```
+
+##### @media only screen and (min-width: 600px)
+```
+.item {
+    width: 48%;
 }
 ```
