@@ -14,7 +14,7 @@ This goes **outside and below** the `<div class="outer-container">` element.
 <footer>
     <a class="footer-link" href="#">Back to Top</a>
     <p class="footer-text">Your name here. example.email@gmail.com</p>
-    <p class="footer-text">December, 2021. </p>
+    <p class="footer-text">December, 2021.</p>
 </footer>
 ```
 
