@@ -3,6 +3,8 @@
 Place this as the first element of your  `<body>` element in the HTML. This goes **outside and above** the `<main class="outer-container">` element.
 This navbar is used to automatically scroll to the section headers in your portfolio. The links in the navbar point to the `id`s of your section headers.
 
+Derived from W3 schools: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+
 <p align="center">
   <img height="65px" src="https://user-images.githubusercontent.com/43857043/145660638-750fd326-8dee-4506-9e6d-5c5378166bf7.png">
 </p>
