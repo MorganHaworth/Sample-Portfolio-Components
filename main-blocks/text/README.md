@@ -3,6 +3,8 @@ Please reach out if something isn't working like you think it should - or if you
 
 All of these components go inside the `<main class="outer-container">` element.
 
+Add section headers!
+
 ## Common CSS Properties
 Each property has more values, I just listed some common ones. Comprehensive list: https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals
 
