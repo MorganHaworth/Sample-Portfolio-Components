@@ -12,7 +12,7 @@ Each property has more values, I just listed some common ones. Comprehensive lis
 
 `text-align: ` values can be `left`, `right`, or `center`.
 
-`font-weight: ` value can be `bold`.
+`font-weight: ` value can be `bold` or `normal`.
 
 `font-family: ` values can be generic (`cursive`, `serif`, `sans-serif`, `monospace`) or family name (`Arial`, `Times New Roman`, `Verdana`, `Georgia`) 
 
@@ -90,7 +90,7 @@ This can be your name, title, short description, etc.
 ```
 ## Section Title
 <p align="center">
-  <img height="175px" src="https://user-images.githubusercontent.com/43857043/145599973-97fe015c-ade5-4188-81a6-3ea1a32039d2.png">
+  <img height="100px" src="https://user-images.githubusercontent.com/43857043/145599973-97fe015c-ade5-4188-81a6-3ea1a32039d2.png">
 </p>
 
 Each section title element should have an `id` attribute whose value is the section name (with no spaces - instead dashes or capitalization)
