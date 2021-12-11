@@ -20,10 +20,10 @@ If not already present, add this `<link>` element inside the `<head></head>`.
 Add this in `<div class="outer-container">` element. If you want a specific icon, add a `<a>` element with the `class` attribute value set to `fa fa-ICON_NAME`. When styling, set the `background:` attribute to the logo's color.
 ```
 <div class="icon-container">
-    <a href="#your-link" class="fa fa-linkedin"></a>
-    <a href="#your-link" class="fa fa-envelope"></a>
-    <a href="#your-link" class="fa fa-github"></a>
-    <a href="#your-link" class="fa fa-twitter"></a>
+    <a href="#your-link" class="icon fa fa-linkedin"></a>
+    <a href="#your-link" class="icon fa fa-envelope"></a>
+    <a href="#your-link" class="icon fa fa-github"></a>
+    <a href="#your-link" class="icon fa fa-twitter"></a>
 </div>
 ```
 
@@ -34,7 +34,7 @@ Add this in `<div class="outer-container">` element. If you want a specific icon
     flex-wrap: wrap;
     justify-content: center;
 }
-.fa {
+.icon {
     padding: 20px;
     font-size: 30px;
     width: 30px;
