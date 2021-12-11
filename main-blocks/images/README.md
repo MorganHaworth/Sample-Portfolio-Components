@@ -2,7 +2,7 @@
 
 Please reach out if something isn't working like you think it should - or if you want alterations. Or even if you have more ideas and want to know how to do them!
 
-All of these components go inside the `<div class="outer-container">` element.
+All of these components go inside the `<main class="outer-container">` element.
 
 ## Circular Image
 <p align="center">
