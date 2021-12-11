@@ -71,34 +71,32 @@ Add this in `<main class="outer-container">` element. If you want a specific ico
 Users are directed to new tab to view (and download) a file. Replace `assets/Resume.pdf` with the name of your file.
 #### HTML
 ```
-<button class="resume-button">
-    <a class="resume-link" href="assets/Resume.pdf" target="_blank">View Resume</a>
-</button>
+<a target="_blank" class="resume-link" href="assets/Resume.pdf">View Resume</a>
 ```
 #### CSS
 ```
-.resume-button {
+.resume-link {
+    display: block;
     background: rgb(226, 226, 226); /* Color of button: Change this to a color you like */
     padding: 20px 30px;
     border-radius: 15px;
-    width: 50%;
     border: none;
     box-shadow: 0px 4px 5px 0px lightgray;
-}
-.resume-link {
+    margin: 25px auto;
+    box-sizing: border-box;
     font-weight: bold;
     text-align: center;
     font-size: 1.2em;
     text-decoration: none;
     color: rgb(50,50,50); /* Font color: Change this to a color you like */
 }
-.resume-button:active {
-    box-shadow: 1px 4px 5px 0px darkgray;
+.resume-link:hover {
+    box-shadow: 0px 4px 5px 0px darkgray;
 }
 ```
 ##### @media only screen and (max-width: 600px)
 ```
-.resume-button {
+.resume-link {
     width: 100%;
 }
 ```
