@@ -280,3 +280,70 @@ I removed a couple of the `li` elements in this HTML so not all items in the ima
     width: 48%;
 }
 ```
+
+## Contact Me Section
+<p align="center">
+  <img height="300px" src="https://user-images.githubusercontent.com/43857043/145663124-3368e64d-a8c4-4143-b984-7339d7840b07.png">
+</p>
+
+This component uses the code found at /main-blocks/buttons-and-links/ Social Media Icons section. Please refer to [here](https://github.com/MorganHaworth/Sample-Portfolio-Components/tree/main/main-blocks/buttons-and-links#social-media-icons-square-and-circle).
+
+Include as much information as you are comfortable sharing online.
+
+#### HTML
+```
+<div class="contact-section">
+    <p class="contact">Firstname Lastname in Omaha, NE</p>
+    <div class="email-section">
+        <p class="contact">Email</p>
+        <a target="_blank" href="mailto:youremail@mail.com">Email Me</a>
+    </div>
+    <p class="contact">Phone</p>
+    <p class="contact-info">+1 (XXX) XXX - XXXX</p>
+    <p class="contact">On the Web</p>
+    <div class="icon-container">
+        <a href="#your-link" class="fa icon fa-linkedin"></a>
+        <a href="#your-link" class="fa icon fa-envelope"></a>
+    </div>
+</div>
+```
+
+#### CSS
+```
+.contact-section {
+    text-align: left;
+    width: 100%;
+    margin: 0px;
+}
+.contact {
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+.contact-info {
+    margin: 5px 20px 20px;
+}
+.email-section a {
+    display: block;
+    background: rgb(226, 226, 226); /* Color of button: Change this to a color you like */
+    padding: 20px 30px;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 4px 5px 0px lightgray;
+    margin: auto;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(50,50,50); /* Font color: Change this to a color you like */
+}
+.email-section a:hover {
+    box-shadow: 0px 4px 5px 0px darkgray;
+}
+```
+##### @media only screen and (max-width: 600px)
+```
+.email-section a {
+    width: 100%;
+}
+```
