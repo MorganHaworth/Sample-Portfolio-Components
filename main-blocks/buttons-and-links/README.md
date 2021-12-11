@@ -96,3 +96,9 @@ Users are directed to new tab to view (and download) a file. Replace `assets/Res
     box-shadow: 1px 4px 5px 0px darkgray;
 }
 ```
+##### @media only screen and (max-width: 600px)
+```
+.resume-button {
+    width: 100%;
+}
+```
