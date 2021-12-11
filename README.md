@@ -16,9 +16,9 @@ Copy & paste this code into a file called `index.html`.
     </head>
     <body>
         <!-- The body contains elements that will display on your webpage -->
-        <div class="outer-container">
-            ## All your webpage elements go between the body tags. For styling, most elements will go in this #outer-container div
-        </div>
+        <main class="outer-container">
+            ## All your webpage elements go between the body tags. For styling, most elements will go in this #outer-container main element
+        </main>
     </body>
 </html>
 ```
