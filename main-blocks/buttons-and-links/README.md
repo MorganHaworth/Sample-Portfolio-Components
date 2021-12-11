@@ -2,7 +2,7 @@
 
 Please reach out if something isn't working like you think it should - or if you want alterations. Or even if you have more ideas and want to know how to do them!
 
-All of these components go inside the `<div class="outer-container">` element.
+All of these components go inside the `<main class="outer-container">` element.
 
 ## Social Media Icons [Square and Circle]
 <p align="center">
@@ -17,7 +17,7 @@ If not already present, add this `<link>` element inside the `<head></head>`.
 ```
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 ```
-Add this in `<div class="outer-container">` element. If you want a specific icon, add a `<a>` element with the `class` attribute value set to `fa fa-ICON_NAME`. When styling, set the `background:` attribute to the logo's color.
+Add this in `<main class="outer-container">` element. If you want a specific icon, add a `<a>` element with the `class` attribute value set to `fa fa-ICON_NAME`. When styling, set the `background:` attribute to the logo's color.
 ```
 <div class="icon-container">
     <a href="#your-link" class="icon fa fa-linkedin"></a>
