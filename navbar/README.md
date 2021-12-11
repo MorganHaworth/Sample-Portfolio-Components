@@ -1,6 +1,6 @@
 # Responsive Navbar
 
-Place this as the first element of your  `<body>` element in the HTML. This goes **outside and above** the `<div class="outer-container">` element.
+Place this as the first element of your  `<body>` element in the HTML. This goes **outside and above** the `<main class="outer-container">` element.
 This navbar is used to automatically scroll to the section headers in your portfolio. The links in the navbar point to the `id`s of your section headers.
 
 <p align="center">
