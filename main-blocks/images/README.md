@@ -69,7 +69,7 @@ Be mindful of how much text you include in this component. If you want to swap s
     width: 100%;
 }
 ```
-##### @media only screen and (min-width: 600px)
+##### @media only screen and (min-width: 601px)
 ```
 .image-by-text {
     width: 50%;
@@ -127,7 +127,7 @@ White space between images optional (how-to in CSS section) - Please ask questio
     column-count: 1;
 }
 ```
-##### @media only screen and (min-width: 600px)
+##### @media only screen and (min-width: 601px)
 ```
 .image-gallery {
     -moz-column-count: 2;
