@@ -63,3 +63,7 @@ body {
     }
 }
 ```
+### script.js
+Create a script.js 
+
+There is no content in this file yet.
