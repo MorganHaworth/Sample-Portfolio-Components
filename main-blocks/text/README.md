@@ -60,7 +60,7 @@ This can be your name, title, short description, etc.
     font-size: 1.5em;
 }
 ```
-##### @media only screen and (min-width: 600px)
+##### @media only screen and (min-width: 601px)
 ```
 .small-blurb {
     font-size: 2.3em;
@@ -274,7 +274,7 @@ I removed a couple of the `li` elements in this HTML so not all items in the ima
 }
 ```
 
-##### @media only screen and (min-width: 600px)
+##### @media only screen and (min-width: 601px)
 ```
 .item {
     width: 48%;
